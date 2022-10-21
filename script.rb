@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 
 # Ne prendra pas les liens internes
-root_domain = "https://www.blogduwebdesign.com/"
+root_domain = "https://www.mon_domain.com/"
 @doc = Nokogiri::HTML.parse(open('text.html').read)
 
 # Ne prend pas encore en charge les liens dans les images
